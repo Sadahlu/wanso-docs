@@ -1,4 +1,5 @@
 - [] 对话历史,两次模型调用都加载了全部会话历史吗
 - [x] 修复 N+1 查询
 - [ ] fastpath 也需要调用一次最终回复模型 —— 详见 [analysis/fast-path-design-issue.md](analysis/fast-path-design-issue.md)
-- [ ] 为这个项目编写一个网页版前端,方便我调试接口
+- [x] 为这个项目编写一个网页版前端,方便我调试接口
+- [ ] debug接口和eval接口能否本地部署才注册这两个接口，生产环境不注册这两个接口，以免 server.py 报错
